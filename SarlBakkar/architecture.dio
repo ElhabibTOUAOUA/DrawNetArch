@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="b69kcNjZrIqU78OAnbbE" name="Page-1">
-        <mxGraphModel dx="792" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="837" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -87,10 +87,16 @@
                 <mxCell id="5" value="Production Zone 1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#FF8000;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="1130" y="580" width="510" height="540" as="geometry"/>
                 </mxCell>
+                <mxCell id="68" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/switch/Switch_24_port_L2.svg;" vertex="1" parent="5">
+                    <mxGeometry x="40" y="60" width="74.4" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;192.168.1.30&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;fontSize=12;" vertex="1" parent="5">
+                    <mxGeometry x="75.70000000000005" y="180" width="43" height="34.13" as="geometry"/>
+                </mxCell>
                 <mxCell id="6" value="Production Zone 2" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#FF8000;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="20" y="20" width="502" height="450" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" style="edgeStyle=none;html=1;strokeColor=#009900;dashed=1;strokeWidth=1;flowAnimation=1;entryX=0.902;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;jumpStyle=none;" edge="1" parent="1" source="23" target="50">
+                <mxCell id="54" style="edgeStyle=none;html=1;strokeColor=#009900;dashed=1;strokeWidth=1;flowAnimation=1;entryX=0.902;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;jumpStyle=none;spacing=2;fontSize=11;" edge="1" parent="1" source="23" target="50">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1030" y="520"/>
@@ -119,6 +125,12 @@
                 </mxCell>
                 <mxCell id="64" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;dashed=1;strokeColor=#009900;strokeWidth=1;fontSize=8;fontColor=#6881B3;startArrow=none;startFill=0;endArrow=classic;endFill=1;flowAnimation=1;" edge="1" parent="1" source="63" target="50">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;elbow=vertical;startArrow=block;startFill=1;strokeColor=#009900;rounded=0;dashed=1;strokeWidth=1;fontSize=11;fontColor=#009900;jumpStyle=none;entryX=0.749;entryY=-0.078;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;fillColor=#d5e8d4;flowAnimation=1;" edge="1" parent="1" source="63" target="68">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="1330" y="700" as="sourcePoint"/>
+                        <mxPoint x="1430" y="700" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="35" value="First floor Devices" parent="0"/>
                 <mxCell id="7" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;192.168.1.30&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;fontSize=12;" parent="35" vertex="1">
@@ -157,7 +169,7 @@
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="880" y="520" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="850" y="520"/>
+                            <mxPoint x="870" y="520"/>
                             <mxPoint x="880" y="520"/>
                         </Array>
                     </mxGeometry>
