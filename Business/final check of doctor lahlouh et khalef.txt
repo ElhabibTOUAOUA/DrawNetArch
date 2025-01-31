@@ -1,0 +1,8 @@
+total d'achat = 55050.00da
+total vente = 130000.00da
+total de charge = 2850.00da
+
+net = 72100.00da
+
+70% de net = 50000.00da
+30% de net = 22100.00da
